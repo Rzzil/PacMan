@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 273340709}
   - component: {fileID: 273340708}
   - component: {fileID: 273340707}
+  - component: {fileID: 273340710}
   m_Layer: 0
   m_Name: monster3
   m_TagString: Untagged
@@ -223,6 +224,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &273340710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273340706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3a04f431da50145b54f493c0e1aa92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &560475808
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,6 +247,7 @@ GameObject:
   - component: {fileID: 560475811}
   - component: {fileID: 560475810}
   - component: {fileID: 560475809}
+  - component: {fileID: 560475812}
   m_Layer: 0
   m_Name: monster4
   m_TagString: Untagged
@@ -325,6 +339,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560475812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560475808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3a04f431da50145b54f493c0e1aa92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,6 +791,7 @@ GameObject:
   - component: {fileID: 1415913148}
   - component: {fileID: 1415913147}
   - component: {fileID: 1415913149}
+  - component: {fileID: 1415913150}
   m_Layer: 0
   m_Name: pacman
   m_TagString: Untagged
@@ -831,7 +858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415913146}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.613, y: -0.644, z: 0}
+  m_LocalPosition: {x: 0.063, y: -0.644, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children: []
   m_Father: {fileID: 0}
@@ -856,6 +883,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1415913150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415913146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86fd9c3b2c19c94585c8a64670ee273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveList: 000000000000000000000000000000000000000001000000010000000100000001000000020000000200000002000000020000000200000003000000030000000300000003000000
 --- !u!1 &1734072496
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +984,7 @@ GameObject:
   - component: {fileID: 1825402244}
   - component: {fileID: 1825402243}
   - component: {fileID: 1825402245}
+  - component: {fileID: 1825402246}
   m_Layer: 0
   m_Name: monster1
   m_TagString: Untagged
@@ -1035,6 +1076,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1825402246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825402242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3a04f431da50145b54f493c0e1aa92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1884525182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1099,7 @@ GameObject:
   - component: {fileID: 1884525184}
   - component: {fileID: 1884525183}
   - component: {fileID: 1884525185}
+  - component: {fileID: 1884525186}
   m_Layer: 0
   m_Name: monster2
   m_TagString: Untagged
@@ -1137,6 +1191,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1884525186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884525182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3a04f431da50145b54f493c0e1aa92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2014633366
 GameObject:
   m_ObjectHideFlags: 0
